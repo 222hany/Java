@@ -28,10 +28,11 @@ public class Scannersample {
 		System.out.println("당신의 취미는 무엇입니까?");
 		hobby = sc.next();
 		System.out.println("당신이 좋아하는 음식은 무엇입니까?");
-		favoriteFood = sc.next();
+		favoriteFood = sc.next(); //sc.next();공백을 받지 않음. 붙여쓰는 것만 가능.
 		System.out.println("주소를 입력해 주세요.");
-		address = sc.next();
+		address = sc.nextLine(); //sc.nextLine();엔터 치기 전까지 출력.
 		System.out.println("당신의 취미는 " + hobby + "입니다. 당신의 좋아하는 음식은 " + favoriteFood + "입니다. 당신의 주소는 " + address + " 입니다." );
+		
 	}
 
 }
