@@ -33,7 +33,7 @@ public class SwitchScanner {
 		    	   System.out.println("잘못된 선택입니다. 다시 주문해주세요.");
 		}*/
 		
-		int choice = sc.nextInt();
+		int choice;
 		boolean isChoice = false; // while은 false일때 조건이 실행되고 true일때 종료.
 		while (!isChoice) { // 조건이 참인 동안 코드 블록을 반복적으로 실행.
 			System.out.println("과자를 선택해주세요.");
@@ -41,6 +41,7 @@ public class SwitchScanner {
 			System.out.println("2. 감자깡");
 			System.out.println("3. 고구마깡");
 			System.out.println("4. 양파깡");
+	    choice = sc.nextInt();
 		
 		switch (choice) {
 		       case 1 :
