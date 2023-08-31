@@ -19,7 +19,7 @@ public class for02 {
 			result += num; // result 변수에 num1 값을 더함. num2만큼 num1을 더하는 효과를 줌.
 		}
 		System.out.println(num + "*" + num2 + " = " + result); // 계산된 결과를 출력. 입력받은 두 숫자와 결과 값을
-		                                                       // 문자열로 결합해서 출력.
+		                                                       // 문자열로 결합해서 출력. 
 	}
 
 }

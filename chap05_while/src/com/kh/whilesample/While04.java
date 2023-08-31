@@ -7,7 +7,7 @@ public class While04 {
 		int sum = 0; // 최종 합
 		int num = 1;
 		
-		while (num <= 5) {
+		while (num <= 100) {
 			System.out.println(num);
 			sum += num; // sum의 합계를 주기적으로 보고싶으면 while문 안에 작성하기.
 			num = num + 1;
