@@ -7,13 +7,14 @@ public class While04 {
 		int sum = 0; // 최종 합
 		int num = 1;
 		
-		while (num <= 3) {
+		while (num <= 5) {
 			System.out.println(num);
-			sum += num; //
+			sum += num; // sum의 합계를 주기적으로 보고싶으면 while문 안에 작성하기.
 			num = num + 1;
-			System.out.println(sum);
 		}
-
+		System.out.println(sum); // while이 종료되었다고 해서 class가 종료된 것은 아니기 때문에 while문이 종료된 후
+		                         // 남아있는 System.out.println(sum); 이 출력 됨.
+		
 	}
 
 }
