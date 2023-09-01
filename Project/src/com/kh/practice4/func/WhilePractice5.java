@@ -9,14 +9,22 @@ public class WhilePractice5 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("정수를 하나 입력하세요.");
-		int num1 = sc.nextInt();
-		int sum = 0;
+		int num = sc.nextInt();
+		
+		/*int sum = 0;
 		int num2 = 1;
 		
 		while (num2 <= num1) {
 			System.out.println(sum);
 			sum += num2;
 			num2 = num2 + 1;
+		}*/
+		
+		//선생님 풀이
+		int sum = 0;
+		for (int i = 1; i <= num; i++) {
+			sum += i;
 		}
+		System.out.println("1부터 " + num + "까지의 합은 " + sum + "입니다.");
 }
 }

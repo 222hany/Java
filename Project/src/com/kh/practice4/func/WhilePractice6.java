@@ -12,13 +12,17 @@ public class WhilePractice6 {
 		int num1 = sc.nextInt();
 		System.out.println("두번째 숫자를 입력해주세요.");
 		int num2 = sc.nextInt();
-		int i;
+		/*int i;
 		
 		while (num1 > num2) {
 			i = --num1;
 			System.out.println(i);
+		}*/
+		
+		//선생님 풀이
+		for (int i = num1; i <= num2; i++) {
+			System.out.println(i);
 		}
-
 	}
 
 }
