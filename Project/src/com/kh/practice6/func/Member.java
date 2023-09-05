@@ -11,7 +11,7 @@ public class Member {
 	String email;
 	
 	// 2. 생성자
-	public Member(String memberId, String memberPw, String memberName, int age, char gender, String phone, String email) {
+	/*public Member(String memberId, String memberPw, String memberName, int age, char gender, String phone, String email) {
 		this.memberId = memberId;
 		this.memberPw = memberPw;
 		this.memberName = memberName;
@@ -19,9 +19,14 @@ public class Member {
 		this.gender = gender;
 		this.phone = phone;
 		this.email = email;	
+	}*/
+	//선생님 풀이
+	public Member() {
 	}
+	
 	// 3. 정보출력매소드
-	public void changeName(String name) {
+	public void changeName(String memberName) {
+		this.memberName = memberName;
 	}
 	public void printName() {
 		System.out.println(memberName + " 회원님");
