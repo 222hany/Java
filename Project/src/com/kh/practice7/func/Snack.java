@@ -8,7 +8,7 @@ public class Snack {
 	private int numOf;
 	private int price;
 	
-	// 2. 필드 복사본
+	
 	public String getKind() {
 		return kind;
 	}
@@ -25,7 +25,7 @@ public class Snack {
 		return price;
 	}
 	
-	// 3. 생성자
+	
 	public void setKind(String kind) {
 		this.kind = kind;
 	}
@@ -41,8 +41,8 @@ public class Snack {
 	public void setPrice(int price) {
 		this.price = price;
 	}
+
 	
-	// 4. 매소드
 	public void information() {
 		System.out.println("종류 : " + kind);
 		System.out.println("이름 : " + name);
