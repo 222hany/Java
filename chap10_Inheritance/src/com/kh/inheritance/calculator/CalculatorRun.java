@@ -43,6 +43,7 @@ public class CalculatorRun extends CalculatorForMod {
 		// 계산기 기능 업데이트
 		/*
 		Scanner sc = new Scanner(System.in);
+		CalculatorForMod cal2 = new CalculatorForMod();
 		
 		System.out.println("숫자를 2개 입력해주세요.");
 		int num = sc.nextInt();
@@ -52,11 +53,10 @@ public class CalculatorRun extends CalculatorForMod {
 		int result2 = cal.substruct(num, num2);
 		int result3 = cal.multiply(num, num2);
 		int result4 = cal.divide(num, num2);
-		int result5 = cal.mod(num, num2);
+		int result5 = cal2.mod(num, num2);
 		
-		CalculatorForMod cal2 = new CalculatorForMod();
-		System.out.println("add : " + cal2.add());
-		System.out.println("mod : " + cal2.mod());
+		System.out.println("add : " + result1);
+		System.out.println("mod : " + result5);
 		*/
 
 	}
