@@ -7,7 +7,9 @@ import com.kh.mvc.person.vo.PersonView;
 public class PersonMain {
 
 	public static void main(String[] args) {
-		PersonModel model = new PersonModel("¿Ã«œ¥œ");
+		PersonModel model = new PersonModel();
+		model.setName("");
+		model.VaildName();
 		PersonView view = new PersonView();
 		PersonController controller = new PersonController(model, view);
 		
