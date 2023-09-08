@@ -24,17 +24,26 @@ public class ArrayListPractice01 {
 		rainbow.set(5, "green");
 		System.out.println("수정 체크 : " + rainbow);
 		
-		// 4. 색상 지우기
+		// 4. 요소 추가
+		rainbow.set(2, "yellow");
+		rainbow.set(5, "light blue");
+		System.out.println("추가 체크 : " + rainbow);
+		
+		
+		// 5. 색상 지우기
+		rainbow.remove(1);
+		rainbow.remove(1);
 		rainbow.remove(1);
 		rainbow.remove(2);
-		rainbow.remove(3);
-		rainbow.remove(5);
 		System.out.println("제거 확인 : " + rainbow);
+		
+		// 선생님 풀이 (인덱스 이용해서 출력)
+	    //System.out.println("인덱스로 출력 : " + rainbow.get(0) + rainbow.get(1) + rainbow.get(2));
 
-		// 5. 향상된 for문 이용해서 최후 출력하기 -> red,blue,violet
+
+		 //6. 향상된 for문 이용해서 최후 출력하기 -> red,blue,violet
 		for (String colors : rainbow) {
 			System.out.println(colors);
 		}
 	}
-
 }
