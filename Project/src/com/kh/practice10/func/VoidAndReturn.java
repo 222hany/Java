@@ -18,17 +18,18 @@ public class VoidAndReturn {
 
 	        int sum = num1 + num2;
 	        
+	        System.out.println("합 : " + sum);
 	    }
 	public void practice2() {
 		Scanner scanner = new Scanner(System.in);
-        
+       
         int n = scanner.nextInt();
 
         int factorial = 1;
         for (int i = 1; i <= n; i++) {
             factorial *= i;
+            System.out.println(factorial);
         }
-       
 	    
 	}
 	public void practice3() {
@@ -37,6 +38,8 @@ public class VoidAndReturn {
 	     String input = scanner.nextLine();
 
 	     String reversed = new StringBuilder(input).reverse().toString();
+	     
+	     System.out.println(reversed);
 	       
 	}
 	public void practice4() {
@@ -51,6 +54,7 @@ public class VoidAndReturn {
         for (int i = 0; i < size; i++) {
             numbers[i] = scanner.nextInt();
             sum += numbers[i];
+            System.out.println(sum);
         }
         
         
@@ -72,6 +76,7 @@ public class VoidAndReturn {
             if (numbers[i] > max) {
                 max = numbers[i];
             }
+            System.out.println(max);
         }
 	        
 	        
@@ -84,20 +89,20 @@ public class VoidAndReturn {
         boolean isPrime = isPrimeNumber(num);
         
         if (isPrime) {
-          
+          System.out.println("소수입니다.");
         } else {
-           
+          System.out.println("소수가 아닙니다.");
         }
     }
     
     public static boolean isPrimeNumber(int num) {
         if (num <= 1) {
-            
+            System.out.println("소수입니다.");
         }
         
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
-               
+            System.out.println("소수가 아닙니다.");
             }
         }
 		return false;
