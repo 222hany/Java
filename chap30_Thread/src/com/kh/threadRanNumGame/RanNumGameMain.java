@@ -7,8 +7,8 @@ public class RanNumGameMain {
     public static void main(String[] args) {
         // 랜덤 숫자 생성
         Random random = new Random();
-        int targetNumber = random.nextInt(10) + 1; // 1에서 100 사이의 숫자 생성
-        /*
+        int targetNumber = random.nextInt(10) + 1; // 1에서 10 사이의 숫자 생성
+        
         // 게임 스레드 시작
         GuessingThread guessingThread = new GuessingThread(targetNumber);
         guessingThread.start();
@@ -28,6 +28,6 @@ public class RanNumGameMain {
             }
             guessingThread.guess(guess);
         }
-        */
+        
     }
 }
