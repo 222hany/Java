@@ -15,15 +15,15 @@ public class AM {
 	protected void protectedMethod() {
 		System.out.println("protected Method() 호출됨 / 같은 패키지 내에서는 접근 가능");
 	}
-	
-	/*default void defaultMethod() { // default는 앞에 접근제한자를 작성해 주지 않으면 기본으로 적용이 됨.
+	/*
+	default void defaultMethod() { // default는 앞에 접근제한자를 작성해 주지 않으면 기본으로 적용이 됨.
 		System.out.println("default Method() 호출됨");
-	}*/
+	}
 	
 	void defaultMethod() {
 		System.out.println("default Method() 호출됨 / 같은 패키지 내에서만 접근 가능");
 	}
-	
+	*/
 	private void privateMethod() {
 		System.out.println("private Method() 호출됨 / 같은 클래스 내에서만 접근이 가능");
 	}
