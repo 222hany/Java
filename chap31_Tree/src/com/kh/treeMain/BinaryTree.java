@@ -47,7 +47,8 @@ public class BinaryTree {
 	public static void main(String[] args) {
 		BinaryTree tree = new BinaryTree();
 		
-		tree.insert(50);
+		// 노드의 값이 부모보다 작으면 왼쪽, 노드의 값이 부모보다 크면 오른쪽
+		tree.insert(50); // 루트 노드
 		tree.insert(30);
 		tree.insert(70);
 		tree.insert(20);
