@@ -11,7 +11,7 @@ public class JavaSample01 {
 	public void inputText() {
 		Scanner sc = new Scanner(System.in);
 		boolean a = true;
-		while(a) {
+		while(a) { // true일 동안 돌아간다!!!
 			System.out.println("문자열을 입력해주세요.");
 			String str = sc.nextLine();
 			if(str == "out") {
