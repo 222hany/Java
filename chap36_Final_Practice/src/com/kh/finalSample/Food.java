@@ -6,10 +6,6 @@ public class Food implements Serializable{
 	private String name;
 	private int kcal;
 	
-	public Food() {
-		
-	}
-	
 	public Food(String name, int kcal) {
 		this.name = name;
 		this.kcal = kcal;
